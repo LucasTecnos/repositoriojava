@@ -1,0 +1,14 @@
+package lucas;
+
+public class RepeticaoFor {
+	
+	public static void main (String[] args){
+		
+		for(int i = 500; i <500; i++){
+			
+			System.out.println(i + " Eu não devo faze a atividade cujo eu não devia fazer.");
+			i++;
+		}
+	}
+
+}
