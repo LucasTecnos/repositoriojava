@@ -1,0 +1,21 @@
+package lucas;
+
+import javax.swing.JOptionPane;
+
+public class PetRepete {
+	public static void main(String[] args) {
+		String resposta = "";
+		int valor = 1;
+		int i = 0;
+		while (i < valor) {
+			resposta = JOptionPane.showInputDialog(null, "Tinha dois cachorrinhos, o Pete e o Repete. O Pete morreu, quem sobrou?", "Desafio!", JOptionPane.PLAIN_MESSAGE);
+			if (resposta.equalsIgnoreCase("Repete")) {
+				resposta = JOptionPane.showInputDialog(null, "Tinha dois cachorrinhos, o Pete e o Repete. O Pete morreu, quem sobrou?", "Desafio!", JOptionPane.PLAIN_MESSAGE);
+			} else {
+				resposta = JOptionPane.showInputDialog(null, "RESPOSTA ERRADA:::   Tinha dois cachorrinhos, o Pete e o Repete. O Pete morreu, quem sobrou?", "Desafio!", JOptionPane.PLAIN_MESSAGE);
+			}
+		}
+
+	}
+
+}
