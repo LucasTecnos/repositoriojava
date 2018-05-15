@@ -1,0 +1,17 @@
+package lucas;
+
+public class RepeticaoDoWhile {
+	
+	public static void main (String[] args){
+		
+		int i = 1;
+		
+		do{
+			
+			System.out.println(i + " Eu não devo faze a atividade cujo eu não devia fazer.");
+			i++;
+		}
+		while(i <= 500);
+	}
+
+}
