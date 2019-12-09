@@ -1,4 +1,4 @@
-package lucas;
+package lucas
 
 import javax.swing.JOptionPane;
 
